@@ -52,7 +52,7 @@ export default function Footer() {
                 ))}
             </div>
             <ul className='grid grid-cols-1 md:grid-cols-2  gap-[20px] text-base'>
-                {links.map((link)=>(f
+                {links.map((link)=>(
                     <li key={link}>
                     <a 
                     href={`/${link.toLowerCase()}`}
